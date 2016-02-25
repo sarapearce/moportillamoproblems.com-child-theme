@@ -1,0 +1,260 @@
+/*Base file for import along with media queries*/
+/*@import 'reset';*/
+/*commonly used classes and styles*/
+/* line 3, ../sass/common.scss */
+.hidden {
+  visibility: none;
+}
+
+/* line 7, ../sass/common.scss */
+#brand {
+  text-indent: -9000px;
+  background: url(../images/z.png) no-repeat top left;
+  background-size: 45px;
+  height: 45px;
+  width: 45px;
+  float: left;
+  margin: 10px;
+}
+
+/* line 17, ../sass/common.scss */
+button {
+  color: blue;
+  border: 2px solid;
+  border-radius: 25px;
+}
+
+/*styles for footer*/
+/* line 3, ../sass/footer.scss */
+footer {
+  background: black;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 10, ../sass/footer.scss */
+#social {
+  background: #8a80c3;
+  color: #fafafa;
+  padding: 25px 0;
+  overflow: hidden;
+  text-align: center;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+/* line 21, ../sass/footer.scss */
+#social ul {
+  clear: left;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  text-align: center;
+}
+
+/* line 32, ../sass/footer.scss */
+#social li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 50%;
+}
+
+/* line 42, ../sass/footer.scss */
+#social ul li img {
+  margin: 20px;
+}
+
+/* line 46, ../sass/footer.scss */
+footer table {
+  background: white;
+}
+
+/* line 51, ../sass/footer.scss */
+.site_footer, #main_content:after {
+  height: 142px;
+}
+
+/* line 55, ../sass/footer.scss */
+.site_footer {
+  background: orange;
+}
+
+/* line 59, ../sass/footer.scss */
+#footer_logo {
+  width: 100px;
+}
+
+/* line 62, ../sass/footer.scss */
+footer {
+  background: white;
+}
+
+/*header classes and styles*/
+/* line 2, ../sass/header.scss */
+header {
+  background: black;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 9, ../sass/header.scss */
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  border-bottom: 2px solid #ccc;
+  height: 66px;
+  width: 100%;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* line 20, ../sass/header.scss */
+nav ul {
+  float: right;
+}
+
+/* line 29, ../sass/header.scss */
+nav li a:hover {
+  background: #e5e5e5;
+}
+
+/* line 33, ../sass/header.scss */
+nav button {
+  float: right;
+  display: inline;
+}
+
+/* line 1, ../sass/hero.scss */
+#hero {
+  background: url("../images/computer_screens.jpg") no-repeat top left;
+  text-align: center;
+  color: #fafafa;
+  background-size: cover;
+  height: 350px;
+  padding: 25px 0;
+}
+
+/* line 10, ../sass/hero.scss */
+#hero img {
+  border-radius: 50%;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 18, ../sass/hero.scss */
+#hero h2 {
+  font-size: 400%;
+  margin: 10px;
+}
+
+/* line 23, ../sass/hero.scss */
+#hero span {
+  border: 2px solid white;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 150%;
+}
+
+/*styles for images*/
+/* line 3, ../sass/images.scss */
+img {
+  vertical-align: text-top;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 10, ../sass/images.scss */
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+/* line 15, ../sass/images.scss */
+#band img {
+  width: 220px;
+}
+
+/* line 1, ../sass/texts.scss */
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+  text-align: center;
+}
+
+/* line 6, ../sass/texts.scss */
+p {
+  word-wrap: break-word;
+  font-weight: 400;
+  color: #453b3a;
+  font-size: 16.68pt;
+  width: 600px;
+  line-height: 20px;
+}
+
+/* line 16, ../sass/texts.scss */
+h1 {
+  font-weight: 200;
+  font-size: 56.6px;
+  text-shadow: 0.5px 0.5px #000000;
+  color: #453b3a;
+}
+
+/* line 24, ../sass/texts.scss */
+h2 {
+  font-weight: 200;
+  color: #453b3a;
+  font-size: 38.26pt;
+  text-shadow: 0.5px 0.5px #000000;
+  text-align: center;
+}
+
+/* line 32, ../sass/texts.scss */
+h4 {
+  text-align: center;
+  word-wrap: normal;
+  font-weight: 200;
+  color: #453b3a;
+  font-size: 14pt;
+}
+
+/*media queries*/
+@media only screen and (max-width: 901px) {
+  /* line 13, ../sass/screen.scss */
+  .column {
+    padding: 10px;
+  }
+
+  /* line 16, ../sass/screen.scss */
+  #hero h2 {
+    font-size: 200%;
+  }
+
+  /* line 19, ../sass/screen.scss */
+  #main-content h3 {
+    font-size: 150%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  /* line 25, ../sass/screen.scss */
+  .column {
+    float: none;
+    width: 100%;
+    padding: 0px;
+    margin: 0 0 40px 0;
+  }
+}
