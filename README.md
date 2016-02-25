@@ -1,4 +1,4 @@
-Single page layout with fixed header and footer when scrolling. 
+Single page layout with fixed header and footer when scrolling. Large centered image with background. Still a WIP.
 
 to view, go to this very long url.
 
